@@ -3,7 +3,7 @@ import json
 from mysql import connector
 from datetime import datetime, timedelta
 
-from .environment import ACCESS_TOKEN,CONSUMER_KEY
+from access_tokens import ACCESS_TOKEN, CONSUMER_KEY
 
 request_headers = {"Content-Type": "application/json; charset=UTF-8", "X-Accept": "application/json"}
 base_path = "https://getpocket.com/v3/"
